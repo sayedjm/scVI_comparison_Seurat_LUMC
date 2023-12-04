@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="BPEXA_Python_3_9" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="BPEXA_Python_3_9" project-jdk-type="Python SDK" />
 </project>
