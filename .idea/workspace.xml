@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a2e998d-69b9-468b-8048-d458f3450add" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scVI_workflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scVI_workflow.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scvi_model/model.pt" beforeDir="false" afterPath="$PROJECT_DIR$/scvi_model/model.pt" afterDir="false" />
     </list>
@@ -63,7 +64,8 @@
       <workItem from="1701696283067" duration="64000" />
       <workItem from="1701696351640" duration="779000" />
       <workItem from="1701697207236" duration="258000" />
-      <workItem from="1701697578906" duration="1021000" />
+      <workItem from="1701697578906" duration="1195000" />
+      <workItem from="1701698951648" duration="453000" />
     </task>
     <servers />
   </component>
