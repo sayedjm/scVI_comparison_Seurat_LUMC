@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f363500b-7417-4fd4-a6be-5e11d3f73e6d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/scV2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scV2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scvi_model/model.pt" beforeDir="false" afterPath="$PROJECT_DIR$/scvi_model/model.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <workItem from="1701164638544" duration="283000" />
       <workItem from="1701164966599" duration="44000" />
       <workItem from="1701677146173" duration="3854000" />
-      <workItem from="1701681813942" duration="1362000" />
+      <workItem from="1701681813942" duration="3893000" />
     </task>
     <servers />
   </component>
