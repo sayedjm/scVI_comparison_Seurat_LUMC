@@ -58,13 +58,9 @@ For example, to adjust the settings, you would amend the grid parameters as foll
 
 ```python
 train_params = True
-hyperparameter_grid = {
-    'n_hidden': [Your values here],
-    'n_latent': range(Your range here),
-    'n_layers': range(Your range here)
-}
+param_grid = {'n_hidden': [your_params], 'n_latent': range(your_params), 'n_layers': range(your_params)}
 ```
-Please be aware that the hyperparameters {'n_hidden': [128], 'n_latent': range(2, 51, 1), 'n_layers': range(1, 6, 1)} have already been executed, and the outcomes are stored in the hp_models directory.
+Please be aware that the hyperparameters ``` python param_grid = {'n_hidden': [128], 'n_latent': range(2, 51, 1), 'n_layers': range(1, 6, 1)}``` have already been executed, and the outcomes are stored in the hp_models directory.
 
 # Original Seurat Workflow
 
