@@ -70,6 +70,7 @@ have already been executed, and the outcomes are stored in the hp_models directo
 
 If you wish to create other UMAP visualisations based on different model files, you need to modify the model variable in the script. For instance, to analyse different sets of hyperparameters, change the models list to include the corresponding model names, like so:
 ```python
+model_dir = os.path.join(save_dir, "hp_model/")
 models = ["1_128_2", "1_128_10", "1_128_20", "Your model names here"]
 ```
 This will allow the script to generate UMAP visualisations for each specified model configuration.
