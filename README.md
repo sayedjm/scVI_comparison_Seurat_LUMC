@@ -38,7 +38,33 @@ Please ensure you have the correct permissions to access this data and download 
 
 # How to Run
 
-After downloading the `.h5ad` file, place it in the designated /h5ad directory of this project. Follow the instructions provided in the subsequent sections to run the analysis with the Seurat and scVI tools, and to compare their respective UMAP results.
+## Prerequisites
+
+Before proceeding, ensure you have Jupyter Notebook installed on your system. Jupyter Notebook is essential for running and interacting with the analysis scripts. If you do not have Jupyter Notebook installed, please visit [the official Jupyter installation guide](https://jupyter.org/install) for instructions.
+
+## Setting Up the Data
+
+After downloading the `.h5ad` file, place it in the designated `/h5ad` directory of this project.
+
+## Running the Analysis
+
+Follow the instructions provided in the subsequent sections to run the analysis with the Seurat and scVI tools, and to compare their respective UMAP results.
+
+## Customising Hyperparameters
+
+To train the model with bespoke hyperparameters, alter the `train_params` variable in the script. Change `train_params = False` to `train_params = True` and modify the hyperparameter grid to suit your requirements.
+
+For example, to adjust the settings, you would amend the grid parameters as follows:
+
+```python
+train_params = True
+hyperparameter_grid = {
+    'n_hidden': [Your values here],
+    'n_latent': range(Your range here),
+    'n_layers': range(Your range here)
+}
+```
+Please be aware that the hyperparameters {'n_hidden': [128], 'n_latent': range(2, 51, 1), 'n_layers': range(1, 6, 1)} have already been executed, and the outcomes are stored in the hp_models directory.
 
 # Original Seurat Workflow
 
