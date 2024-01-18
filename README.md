@@ -60,7 +60,22 @@ For example, to adjust the settings, you would amend the grid parameters as foll
 train_params = True
 param_grid = {'n_hidden': [your_params], 'n_latent': range(your_params), 'n_layers': range(your_params)}
 ```
-Please be aware that the hyperparameters ```param_grid = {'n_hidden': [128], 'n_latent': range(2, 51, 1), 'n_layers': range(1, 6, 1)}``` have already been executed, and the outcomes are stored in the hp_models directory.
+Please be aware that the hyperparameters 
+```python
+param_grid = {'n_hidden': [128], 'n_latent': range(2, 51, 1), 'n_layers': range(1, 6, 1)}
+```
+have already been executed, and the outcomes are stored in the hp_models directory.
+
+## Creating Additional UMAP Visualisations
+
+If you wish to create other UMAP visualisations based on different model files, you need to modify the model variable in the script. For instance, to analyse different sets of hyperparameters, change the models list to include the corresponding model names, like so:
+```python
+models = ["1_128_2", "1_128_10", "1_128_20", "Your model names here"]
+```
+This will allow the script to generate UMAP visualisations for each specified model configuration.
+
+This addition guides users on how to generate UMAP visualizations for different model configurations, making the markdown document more comprehensive for diverse use cases.
+
 
 # Original Seurat Workflow
 
