@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ## PyTorch Installation
 
-Note that the `requirements.txt` does not include a version of PyTorch, you must install a different version depending on your system and whether you are utilizing CPUs or GPUs.
+Note that the `requirements.txt` does not include a version of PyTorch, you must install a different version depending on your system and whether you are utilising CPUs or GPUs.
 
 Please visit the official PyTorch installation guide to find the command that is appropriate for your environment:
 
