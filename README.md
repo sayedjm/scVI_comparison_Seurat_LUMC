@@ -60,7 +60,7 @@ For example, to adjust the settings, you would amend the grid parameters as foll
 train_params = True
 param_grid = {'n_hidden': [your_params], 'n_latent': range(your_params), 'n_layers': range(your_params)}
 ```
-Please be aware that the hyperparameters 
+Please be aware that the hyperparameters: 
 ```python
 param_grid = {'n_hidden': [128], 'n_latent': range(2, 51, 1), 'n_layers': range(1, 6, 1)}
 ```
