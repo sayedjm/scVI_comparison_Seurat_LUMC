@@ -49,5 +49,6 @@ For those interested in the original Seurat workflow used to generate the `.h5ad
 If you encounter any issues accessing the data or have questions regarding the workflow, please feel free to reach out using the contact information provided below.
 
 mghuibregtse@gmail.com
+
 jaimymohammadi@gmail.com
 
