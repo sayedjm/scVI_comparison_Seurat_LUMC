@@ -44,7 +44,7 @@ Before proceeding, ensure you have Jupyter Notebook installed on your system. Ju
 
 ## Setting Up the Data
 
-After downloading the `.h5ad` file, place it in the designated `/h5ad` directory of this project.
+After downloading the `.h5ad` file, place it in the designated `/h5ad/seurat/` directory of this project.
 
 ## Running the Analysis
 
